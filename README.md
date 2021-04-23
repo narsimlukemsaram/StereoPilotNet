@@ -1,23 +1,6 @@
-# Copyright (c) 2017, NVIDIA CORPORATION.  All rights reserved.
+A Stereo Perception Framework with Depth Estimation for Autonomous Vehicles: Developed a stereo vision-based perception framework for autonomous vehicles using three deep neural networks simultaneously to perform free space detection, lane boundary detection, and object detection on image frames captured using the stereo camera.
+@This is the implementation of "A Stereo Perception Framework for Autonomous Vehicles", Narsimlu Kemsaram, Anweshan Das, Gijs Dubbelman.
 
-@page dwx_samples_building Building DriveWorks Samples
-
- - [Prerequisites](#prerequisites)
- - [Building on Linux Desktop or Linux x86/x64 Only](#building_on_linux)
- - [Cross Compiling for the NVIDIA DRIVE Platform](#cross-compilation)
- - [Loading the Sample on the NVIDIA DRIVE Platform](#load)
- - [Compiling on the Device](#device_compilation)
-
-NVIDIA<sup>&reg;</sup> DriveWorks SDK includes samples that you can use as a starting point for
-developing, porting, and optimizing your applications. These samples are provided
-as source code that you can modify to meet specific use cases, such as
-the use of third-party sensors, custom rendering steps, etc.
-
-You can use the as-delivered sample applications without compiling or loading them.
-If you installed DriveWorks on the target, those sample applications are ready
-to execute.
-
-<a name="prerequisites">
 ## Prerequisites
 
 ### Basic Hardware Requirements
@@ -193,5 +176,9 @@ compiled binaries to a device with IP `DPX_IP` as user `nvidia`.
 
 <a name=device_compilation>
 ## Compiling on the Device
+ 
+Related Publications
+What to cite
+If you use this code for your research, please kindly cite:
 
-Currently, it is not possible to compile the samples on the target device.
+@INPROCEEDINGS{9128899,  author={Kemsaram, Narsimlu and Das, Anweshan and Dubbelman, Gijs},  booktitle={2020 IEEE 91st Vehicular Technology Conference (VTC2020-Spring)},   title={A Stereo Perception Framework for Autonomous Vehicles},   year={2020},  volume={},  number={},  pages={1-6},  doi={10.1109/VTC2020-Spring48590.2020.9128899}}
