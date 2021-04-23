@@ -177,8 +177,8 @@ compiled binaries to a device with IP `DPX_IP` as user `nvidia`.
 <a name=device_compilation>
 ## Compiling on the Device
  
-Related Publications
-What to cite
+## Related Publications
+### What to cite
 If you use this code for your research, please kindly cite:
 
 @INPROCEEDINGS{9128899,  author={Kemsaram, Narsimlu and Das, Anweshan and Dubbelman, Gijs},  booktitle={2020 IEEE 91st Vehicular Technology Conference (VTC2020-Spring)},   title={A Stereo Perception Framework for Autonomous Vehicles},   year={2020},  volume={},  number={},  pages={1-6},  doi={10.1109/VTC2020-Spring48590.2020.9128899}}
